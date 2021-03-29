@@ -1,0 +1,40 @@
+.application {
+    padding-left: 50px;
+    background: #7A4931;
+    &__subheader {
+        text-align: center;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 17px;
+    }
+}
+
+.containerApplication {
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+form {
+    max-width: 446px;
+    margin: 0 auto;
+    margin-top: 23px;
+    label {
+        display: block;
+        // width: 100%;
+        color: #fff;
+    }
+    input {
+        display: flex;
+        margin: 0 auto;
+        padding-left: 15px;
+        border: none;
+        margin-top: 10px;
+        height: 51px;
+        width: 100%;
+        background: #FFFFFF;
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }
+}

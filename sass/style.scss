@@ -1,0 +1,97 @@
+
+* {
+    font-family: "RobotoNormal";
+    box-sizing: border-box;
+}
+section {
+    padding: 80px 0 65px 0;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.container2 {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+.colorGlobText {
+    color: #2C1E17;
+}
+.button {
+    color: #fff;
+    margin-top: 35px;    
+    font-size: 24px;
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 267px;
+    height: 70px;
+    font-family: 'RussoOne';
+    background: transparent;
+    cursor: pointer;
+    &_form {
+        height: 58.99px;
+        width: 225px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 41px;
+        font-size: 20.2247px;
+        line-height: 24px;
+    }
+    &_products {
+        width: 161px;
+        height: 42px;
+        border: 1px solid #FFFFFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;      
+        margin-top: 38px;  
+        font-size: 14.069px;
+        line-height: 17px;
+    }
+}
+.headerMainCenter {
+    text-align: center;
+    font-family: 'RussoOne';
+    font-size: 28px;
+    line-height: 96.19%;
+    letter-spacing: 0.035em;
+    color: #2C1E17;
+    margin: 0 auto;
+    &_white {
+        color: #fff;
+    }
+}
+.productsHeader {
+    font-size: 22px;
+    line-height: 26px;
+    color: #2C1E17;
+    font-family: 'RobotoMedium';
+    margin-top: 50px;
+}
+p {
+    margin-bottom: 0;
+}
+@import '../sass/header';
+@import '../sass/main';
+@import '../sass/FeaturesOfThe';
+@import '../sass/products';
+@import '../sass/application';
+@import '../sass/contacts';
+@import '../sass/footer';
+@import '../sass/media/headerM';
+@import '../sass/media/mainM';
+@import '../sass/media/FeaturesOfTheM';
+@import '../sass/media/productsM';
+@import '../sass/media/applicationM';
+@import '../sass/media/contactsM';
+
+
+
+
+
+

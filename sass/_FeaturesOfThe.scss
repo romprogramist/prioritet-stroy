@@ -1,0 +1,27 @@
+.FeaturesOfThe {
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        width: 203px;
+        img {
+            display: flex;
+            margin: 0 auto; 
+        }
+    }
+    &__header {
+        font-family: 'RobotoMedium';
+        font-size: 22px;
+        line-height: 26px;
+        text-align: center;
+        margin: 40px 0 0 0 ;
+    }
+    &__subheader {
+        font-size: 16px;
+        line-height: 19px;
+        color: #8D8D8D;
+        text-align: center;
+        margin-top: 16px;
+    }
+}

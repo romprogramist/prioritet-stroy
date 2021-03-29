@@ -1,0 +1,44 @@
+
+@media screen and ( max-width: 	1100px) {
+    .main {
+        height: 480px;
+        background-position: left;
+        padding-left: 50px;
+        // background: url("/img/bg/bg.jpg") center center/cover no-repeat;
+        background: url("/img/bg/bg.jpg") 20% 50% /cover no-repeat;
+        &__h1 {
+            font-size: 48px;    
+        }
+        &__subheader {            
+            font-size: 19px;
+        }    
+    }    
+}
+
+@media screen and ( max-width: 	600px) {
+    .main {
+        min-height: 500px;
+        padding-left: 20px;
+        padding-right: 5px;
+        &__h1 {
+            max-width: 360px;
+            font-size: 42px;
+        }
+        &__subheader {
+            max-width: 350px;
+            font-size: 18px;
+        }    
+        .button {
+            width: 200px;
+            height: 60px;
+            font-size: 20px;
+        }
+    }    
+}
+@media screen and ( max-width: 	400px) {
+    .main {
+        min-height: 500px;
+        padding-left: 9px;
+        padding-right: 0px;
+    } 
+}

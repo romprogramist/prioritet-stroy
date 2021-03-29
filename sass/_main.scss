@@ -1,0 +1,22 @@
+.main {
+  height: 574px;
+  background: url("/img/bg/bg.jpg") center center/cover no-repeat;
+  
+  &__h1 {
+    max-width: 500px;
+    font-size: 58px;
+    color: #ffffff;
+    line-height: 96.19%;
+    letter-spacing: 0.055em;
+    font-family: "RussoOne";
+    margin: 0;
+  }
+  &__subheader {
+    max-width: 440px;
+    margin-top: 24px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #ffffff;
+    margin-bottom: 0;
+  }
+}
