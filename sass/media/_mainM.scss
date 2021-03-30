@@ -22,11 +22,11 @@
         padding-right: 5px;
         &__h1 {
             max-width: 360px;
-            font-size: 42px;
+            font-size: 40px;
         }
         &__subheader {
             max-width: 350px;
-            font-size: 18px;
+            font-size: 17px;
         }    
         .button {
             width: 200px;
@@ -38,7 +38,7 @@
 @media screen and ( max-width: 	400px) {
     .main {
         min-height: 500px;
-        padding-left: 9px;
+        padding-left: 7px;
         padding-right: 0px;
     } 
 }
