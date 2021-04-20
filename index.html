@@ -20,9 +20,9 @@
   </head>
   <body>
     <header class="header">
-      <div class="header__icon">
-        <img src="img/icon/logo.svg" alt="logo" />
-      </div>
+      <a href="#main" class="header__icon" >
+        <img src="img/icon/logo.svg" alt="logo"/>
+      </a>
       <nav id="nav" class="header__menu">
         <ul id="ul" class="header__ul">
           <li class="header__li">
@@ -60,7 +60,7 @@
       </div>
     </header>
     <main>
-      <section class="main">
+      <section id="main" class="main">
         <div class="container">
           <h1 class="main__h1">Отделочные материалы для вашего дома</h1>
           <h2 class="main__subheader">
@@ -71,7 +71,7 @@
           </button>
         </div>
       </section>
-      <section id="main" class="FeaturesOfThe">
+      <section id="main1" class="FeaturesOfThe">
         <h2 class="headerMainCenter">Особенности продукта</h2>
         <div class="container2">
           <div class="FeaturesOfThe__wrapper">
@@ -404,7 +404,7 @@
               <input
                 placeholder="+7(903)401-85-75"
                 class="telmask"
-                type="text"
+                type="tel"
                 name="phone"
                 id="telmask"
               />
@@ -450,6 +450,11 @@
         </div>
       </footer>
     </main>
+
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
     <script src="js/script.js"></script>
+    
   </body>
 </html>

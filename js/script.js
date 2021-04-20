@@ -28,13 +28,13 @@ window.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-const input = document.body.querySelector(".telmask");
+// const input = document.body.querySelector(".telmask");
 
 
-input.addEventListener("click", (evt) => {
-  input.value = "+7 ";
-  evt.preventDefault();
-});
+// input.addEventListener("click", (evt) => {
+//   input.value = "+7 ";
+//   evt.preventDefault();
+// });
 
 var pics = document.querySelectorAll(".products__wrapperImgOpacity");
 
@@ -72,3 +72,21 @@ liNav.forEach((i) =>
     body.style.overflow = "auto";
   })
 );
+
+$('input[name=phone]').mask('+7 (999) 999-99-99')
+
+
+$(function () {
+  $("form").submit(function (e) {
+    e.preventDefault();
+    $.ajax({
+      type: "POST",
+      url: "mailer/smart.php",
+      data: $(this).serialize(),
+    }).done(function () {
+      $(this).find("input").val("");
+      $("form").trigger("reset");
+    });
+    return false;
+  });
+});

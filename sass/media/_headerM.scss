@@ -31,13 +31,13 @@
         }
         &__li {
             padding-top: 40px;
-        }
+        } 
         &__ul {
             flex-direction: column;                
             justify-content: center;
             align-items: center;                                
             width: 100%;
-            // top: 30%;
+            top: 30%;
             transition-duration: 2s;
             margin-top: 200px;
         }
@@ -62,7 +62,6 @@
                 margin-bottom: 6px;
             }
             &_active {
-                
                 margin-bottom: 21px;                
                 span {
                     margin-bottom: -3px;

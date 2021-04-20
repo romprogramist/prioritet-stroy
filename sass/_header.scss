@@ -1,6 +1,4 @@
-// body {
-//     overflow: hidden;
-// }
+
 .header {
     padding: 40px 0 40px 0;
     display: flex;
@@ -10,6 +8,9 @@
     
     &__icon {
         z-index: 3;
+        img {
+            cursor: pointer;
+        }
     }
     &__wrapperPhone {
         z-index: 3;
