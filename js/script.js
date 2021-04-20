@@ -75,6 +75,10 @@ liNav.forEach((i) =>
 
 $('input[name=phone]').mask('+7 (999) 999-99-99')
 
+// const ThankYou = document.querySelector('.thankYou')
+// console.log(ThankYou);
+
+
 
 $(function () {
   $("form").submit(function (e) {
@@ -82,11 +86,13 @@ $(function () {
     $.ajax({
       type: "POST",
       url: "mailer/smart.php",
-      data: $(this).serialize(),
-    }).done(function () {
+      data: $(this).serialize(),            
+    }).done(function () {      
       $(this).find("input").val("");
-      $("form").trigger("reset");
+      $("form").trigger("reset");     
+      $('ThankYou').classList.remove('d-none'); 
     });
     return false;
   });
 });
+
